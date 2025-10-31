@@ -17,27 +17,27 @@ void loop() {
     yellow();
 }
 
-void red(){
+void red() {
     PORTC &= ~(1 << PC1);
     PORTC |= (1 << PC2);
     _delay_ms(5000);
 }
 
-void red_yellow(){
+void red_yellow() {
     PORTC &= ~(1 << PC2); 
     PORTC |= (1 << PC1);
     PORTC |= (1 << PC2);
     _delay_ms(5000);
 }
 
-void green(){
+void green() {
     PORTC &= ~(1 << PC1); 
     PORTC &= ~(1 << PC2); 
     PORTC |= (1 << PC0);
     _delay_ms(5000);
 }
 
-void yellow(){
+void yellow() {
     PORTC &= ~(1 << PC0); 
     PORTC |= (1 << PC1);
     _delay_ms(5000);
