@@ -118,7 +118,6 @@ The `buzzer_440hz.c` file implements a 440 Hz sound that is being played by a bu
 The `buzzer_440hz_switch.c` file implements a button controlled sound being played by a buzzer varying from 440 Hz to ~260 Hz.
 
 ![alt text](/img/buzzer.jpg)
-![alt text](/img/buzzer.mp4)
 
 https://github.com/user-attachments/assets/5ca8d89c-1579-4974-bb5e-15156acf0edf.mp4
 
