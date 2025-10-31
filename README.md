@@ -120,6 +120,10 @@ The `buzzer_440hz_switch.c` file implements a button controlled sound being play
 ![alt text](/img/buzzer.jpg)
 ![alt text](/img/buzzer.mp4)
 
+https://github.com/user-attachments/assets/5ca8d89c-1579-4974-bb5e-15156acf0edf.mp4
+
+
+
 ### Key Features:
 - Let a buzzer play a different sound by pressing a button.
 
@@ -154,7 +158,7 @@ The `pwm_led.c` file implements two pwm controlled led's that light up in a diff
 ### Description:
 The `pwm_led_fade.c` file implements pwm controlled led's that change their brightness in a fade effect.
 
-![alt text](/img/pwm_led_fade.jpg)
+![alt text](/img/pwm_led_fade.gif)
 
 ### Key Features:
 - Look at pwm controlled led's.
